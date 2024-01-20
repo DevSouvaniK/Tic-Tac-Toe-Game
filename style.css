@@ -4,11 +4,8 @@
 }
 
 body{
-    background-color: #55a630;
-    /* height: 100vh;
-    display: flex; */
+    background-color: #80b918;
     text-align: center;
-    /* justify-content: center; */
 }
 
 .container{
@@ -36,6 +33,7 @@ body{
     box-shadow: 1rem 1rem 0.7rem rgba(0, 0, 0, 0.3);
     font-size: 9vmin;
     color:crimson;
+    background-color: aliceblue;
     
 }
 
@@ -46,4 +44,26 @@ body{
     color: aliceblue;
     border-radius: 1rem;
     border:none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    border:none;
+}
+
+#msg{
+    color:aliceblue;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 15vmin;
+}
+
+.hide{
+    display:none;
 }
